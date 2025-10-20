@@ -20,9 +20,9 @@ for ch in passwd:
     if ch in symbs:
         has_symbol = True
 if has_letter and has_number and has_symbol and len(passwd) >= 8:
-    print("Your password is strong")
+    print("Password stregth: Strong!")
 elif (has_letter and has_number) or (has_symbol and len(passwd) >= 8):
-    print("Your password is medium")
+    print("Password stregth: Medium...!")
 else:
-    print("Your password is week")
+    print("Password stregth: Week")
 print("Relaunch the program to check another password")
